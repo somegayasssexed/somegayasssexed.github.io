@@ -1,9 +1,14 @@
+#containment {
+  background-color: yellow;
+}
+.menu {
+  z-index:3;
+  width:100%;
+  height:100%;
+}
 .first {
   background-color: #000fff;
 }
 .second {
   background-color: red;
-}
-#containment {
-  background-color: yellow;
 }
