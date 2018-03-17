@@ -1,11 +1,13 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-  $("menu").hide();
-  $("nav-bar").click(function(){
-    $("menu").fadeIn();
-    $("nav-bar").fadeIn();
-  });
+    jQuery(window).load(function () {
+      $("menu").hide();
+      $("nav-bar").click(function(){
+        $("menu").fadeIn();
+        $("nav-bar").fadeIn();
+      });
+    });
   </script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
