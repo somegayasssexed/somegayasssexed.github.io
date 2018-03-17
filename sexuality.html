@@ -1,0 +1,124 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="css/sex.css">
+  <title>sexuality</title>
+</head>
+<body>
+  <div id="containment">
+    <div class="navBar">
+      <hr>
+      <hr>
+      <hr>
+    </div>
+
+    <div class="menu">
+      <div class="x">
+        <img src="https://vignette.wikia.nocookie.net/theloudhouse/images/a/a5/X.png/revision/latest?cb=20170917150003">
+      </div>
+      <div class="container">
+        <div class="menuBar">
+          <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="introduction.html">so you're curious about sex</a></li>
+            <li><a href="sexuality.html">so you're wondering</a></li>
+            <li><a href="into-guys.html">so you're into boys</a></li>
+            <li><a href="into-girls.html">so you're into girls</a></li>
+            <li><a href="into-both.html">so you're into a lil bit of both</a></li>
+            <li><a href="trans.html">so you're trans</a></li>
+            <li><a href="intersex.html">so you're intersex</a></li>
+            <li><a href="ace.html">so you're not into anyone</a></li>
+            <li><a href="your-partner.html">so you're partner's intersex/trans/etc.</a></li>
+            <li><a href="resources.html">so you're looking for more</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="bodyPage">
+
+      <div class= "first">
+        <h1>SEXUALITY</h1>
+      </div>
+
+      <div class="second">
+        <div class ="container">
+          <p>so you're curious about sexuality. according to GLSEN sexuality is
+            <blockquote>'an enduring emotional, romantic, or sexual attraction
+                that one feels toward men, toward women, or toward both. Although sexual
+                orientation ranges along a continuum, it is generally discussed in terms of
+                heterosexual—attraction to the other sex—homosexual—attraction to the same
+                sex—and bisexual—attraction to both sexes'</blockquote></p>
+              <p>what this then means is that sexuality isn't just a black and white thing, where
+              you're into the opposite sex or not, it's a whole plethora of things. you could be
+              mostly into girls and occasionally into boys, or half and half. or you could normally
+              not like either, but sometimes be into girls. really, sexuality is however you want
+              to define it for <i>YOU.</i></p>
+              <p><br><b>why do people have different sexualities?</b></p>
+              <p>so yeah. not everyone's sexuality's the same. there're a lot of theories on why
+                members of the LGBTQIA+ community exist, and these theories range from genetic pre-determination
+                to childhood trauma. however, despite all of this, there's no straight up answer, and
+                no single cause has been identified, and there seems to be no way to actually change
+                it despite so called 'gay conversion' therapies, which are considered immoral by many
+                different organisations. keep in mind that, despite no scientific edvidence for why people might
+                be gay, doesn't your sexuality is wrong or unnatural, because while we don't have an explination for being gay, we also
+                don't have one for being straight. so get comfortable in your own skin! you're here for the
+                long run.</p>
+              <p>But just in case you're curious and you have some more
+              questions that need to be answered, this guide comes with a handy list of terminology
+              for all your curious needs.</p>
+        </div>
+      </div>
+
+      <div class="third">
+        <h1>a lil bit of vocabulary</h1>
+      </div>
+
+      <div class="fourth">
+        <p><br><i>who you're attracted to</i></p>
+        <p><b>straight/heterosexual</b> the attraction to people of the opposite gender.</p>
+        <p><b>homosexual</b> the attraction to people of the same gender.</p>
+        <p><b>gay</b> a male-identifying person who's attracted to other male-identifying
+        persons. this is also often used to refer to people who identify as gay, lesbian, bisexual,
+        pansexual, etc.</p>
+        <p><b>lesbian</b> a female-identifying person who's attracted to other female-identifying persons.</p>
+        <p><b>bisexual</b> a person who's attracted to both women and men. often bisexual people are pansexual
+        but they just use the term bisexual</p>
+        <p><b>pansexual</b> a person who's attracted to people of any sex, gender, or sexual identify. many pansexual
+        people call themselves bisexual.</p>
+        <p><b>polysexual</b> a person who's attracted to romantic and sexual partners of many but not all genders, sexes or sexual identities.</p>
+        <p><br><i>the spectrum of attraction</i></p>
+        <p><b>asexual</b> a person who's not sexually attracted to anyone.</p>
+        <p><b>demisexual</b> a person who's occasionally sexually attracted to others.</p>
+        <p><br><i>gender identification</i></p>
+        <p><b>transgender</b> a person who identifies as the opposite gender of which they were born.</p>
+      </div>
+
+      <div class="footer">
+        <div class="container">
+          <p>©️ some gay ass sex ed 2018<br>
+          the intellectual property of ara<br></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  $(document).ready(function() {
+    $(".menu").hide();
+    $(".x").hide();
+    $(".navBar").click(function() {
+      $(".x").show();
+      $(".bodyPage").hide();
+      $(".navBar").hide();
+      $(".menu").fadeIn();
+    });
+    $(".x").click(function() {
+      $(".menu").fadeOut();
+      $(".x").hide();
+      $(".bodyPage").show();
+      $(".navBar").show();
+    });
+  });
+  </script>
+</body>

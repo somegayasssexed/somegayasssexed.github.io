@@ -15,6 +15,17 @@ p {
   width:85%!important;
   margin: auto;
 }
+blockquote {
+  width: 65%;
+  margin-left: 200px;
+  margin-right: 101.172px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-left: 7px solid #EA526F;
+}
 .menu {
   z-index:3;
   width:100%;
@@ -22,6 +33,12 @@ p {
 }
 ul {
   list-style-type: none!important;
+}
+i {
+  color: #EA526F;
+}
+b {
+  color: #25CED1;
 }
 .menuBar ul {
   text-align: center;
@@ -54,22 +71,47 @@ ul {
 }
 .first {
   background-color: #FCEADE;
-  height:400px;
+  height:200px;
   color:black;
 }
 .first h1 {
   text-align: center;
-  padding-top:150px;
+  padding-top:70px;
   font-size: 50px;
 }
 .second {
-  background-color: #25CED1;
+  background-color: white;
   padding-top:50px;
   padding-bottom:50px;
 }
 .second p {
   width: 70%;
   margin: auto!important;
+}
+.third {
+  background-color: #FCEADE;
+  height:100px;
+  color:black;
+}
+.third h1 {
+  text-align: center;
+  padding-top:30px;
+  font-size: 30px;
+}
+.fourth {
+  background-color: #FF8A5B;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fourth p {
+  width: 70%;
+  margin: auto!important;
+  padding-bottom: 5px;
+  color: white;
+}
+.fourth i {
+  color: #FCEADE;
 }
 .footer {
   background:#221D23;
