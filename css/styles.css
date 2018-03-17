@@ -7,6 +7,11 @@
   width:100%;
   height:100%;
 }
+.x{
+  width:10px;
+  height:10px;
+  background-color: yellow;
+}
 .first {
   background-color: #000fff;
 }
