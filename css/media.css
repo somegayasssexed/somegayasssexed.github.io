@@ -92,12 +92,10 @@ b {
   height:auto;
   padding: 10px;
   color:white;
-  text-align: center;
   padding-top:30px;
 }
 .fourth p {
   padding-bottom:40px!important;
-  width: 70%;
   margin: auto!important;
   padding-bottom: 5px;
   color: white;
@@ -180,7 +178,10 @@ b {
     padding-bottom: 10px;
   }
   .second {
-    height:700px;
+    height:200px;
+  }
+  .fourth p {
+    width: 70%;
   }
   .thranduil {
     width:72%;

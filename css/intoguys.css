@@ -81,13 +81,48 @@ b {
   font-size: 50px;
 }
 .second {
-  background-color: white;
-  padding-top:50px;
-  padding-bottom:50px;
+  background-color:#25CED1;
+  height:500px;
+  padding: 10px;
+  color:black;
+  margin: 0px auto;
 }
 .second p {
+  padding-top: 40px;
+  padding-bottom:40px!important;
   width: 70%;
   margin: auto!important;
+  padding-bottom: 5px;
+  color: black;
+}
+.thranduil {
+  width:70%;
+  margin-left: 30px!important;
+}
+.legolas {
+  width:25%;
+  border: 1px solid white;
+  margin-top: 20px!important;
+}
+.legolas p {
+  padding-bottom: 0px!important;
+}
+.legolas a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.legolas a:hover {
+  text-decoration: none;
+  color: #FF8A5B;
+}
+.legolas li {
+  padding-bottom: 10px;
+}
+.thranduil, .legolas {
+    float: left;
+    color: white;
+    margin: auto;
 }
 .third {
   background-color: #FCEADE;
@@ -98,47 +133,31 @@ b {
   text-align: center;
   padding-top:30px;
   font-size: 30px;
+  margin: 0px;
 }
 .fourth {
-  background-color: #FF8A5B;
-  height: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  background-color:#FF8A5B;
+  height:auto;
+  padding: 10px;
+  color:white;
+  text-align: center;
+  padding-top:30px;
 }
 .fourth p {
+  padding-bottom:40px!important;
   width: 70%;
   margin: auto!important;
   padding-bottom: 5px;
   color: white;
 }
-.fourth i {
+.fourth a {
+  text-decoration: none;
   color: #221D23;
-  font-size: 25px;
+  color: white;
 }
-.fifth {
-  background-color: #FCEADE;
-  height:100px;
-  color:black;
-}
-.fifth h1 {
-  text-align: center;
-  padding-top:30px;
-  font-size: 30px;
-  margin: 0px;
-}
-.sixth {
-  background-color:#25CED1;
-  height:auto;
-  padding: 10px;
-  color:black;
-}
-.sixth p {
-  padding-top: 40px;
-  padding-bottom:40px!important;
-  width: 70%;
-  margin: auto!important;
-  padding-bottom: 5px;
-  color: black;
+.fourth a:hover {
+  text-decoration: none;
+  color: #25CED1;
 }
 .footer {
   background:#221D23;
